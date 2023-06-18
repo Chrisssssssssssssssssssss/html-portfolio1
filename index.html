@@ -1,287 +1,318 @@
-<!DOCTYPE html>
-<!--[if lt IE 8]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 9]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+@media only screen and (max-width:1650px){
+/* Header */
+.logo{left: 90px;}
 
-		<title>Home &verbar; Home Care Solution &verbar; EverHealth</title>
-		<link rel="icon" type="image/png" href="images/fav-icon.png">
-		<!-- <link rel="stylesheet" href="css/404.css"> -->
-		<link rel="stylesheet" href="css/animate.min.css">
-		<link rel="stylesheet" href="css/hamburgers.css">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="css/media.css">
-		<link rel="stylesheet" href="css/rslides.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/skitter.styles.min.css">
+/* Banner */
+.bnr_info{left: 665px;}
+}
+
+@media only screen and (max-width:1500px){
+  /* Navigation */
+  nav{max-width: 96%;}
+  nav ul li a{padding: 9px 68px;}
+  /* Banner */
+  .rslides{display: block;}
+  .box_skitter{display: none;}
+  .bnr_info section{display: block;}
+  .bnr_info a{margin-top: 32px;}
+  .bnr_info{bottom: 45px;}
+
+  /* Main Area */
+  #main_area{padding: 150px 20px 0;}
+
+  /* Middle */
+  #middle{padding: 167px 20px 135px;}
+
+  /* Bottom */
+  .btm1_con section{margin-right: 20px;}
+  #bottom2{padding: 228px 20px 150px;}
+
+  /* Footer */
+  .footer_nav ul li a{padding: 23px 72px;}
+
+  /* Nonhome */
+  .nonhome-nav{max-width: 100%;}
+  .main-entry{padding: 0 20px;}
+  .mission_vision section{width: 40%;}
+}
+
+/* Large Tablet Devices */
+@media only screen and (max-width:1400px){
+/* Navigation */
+nav ul li a{padding: 9px 60px;}
+
+/* Footer */
+.footer_nav ul li a{padding: 23px 64px;}
+}
+
+@media only screen and (max-width:1300px){
+  /* Header */
+.logo{max-width: 100%; width: 324px;}
+.logo::before {display: none;}
+.logo::after {height: 227px;border-radius: 145px 145px;}
+.main-logo1 img {   border: 3px solid #237f3b;   border-radius: 50%; }
+  /* Navigation */
+  nav ul li a{padding: 9px 52px;}
+
+  /* Middle */
+  #middle{padding: 80px 20px;}
+
+  /* Main Area */
+  main{width: 520px;}
 
 
-		<!--?php wp_head(); ?-->
-	</head>
-	<body>
-		<div class="protect-me">
-			<div class="clearfix">
+  /* Footer */
+  .footer_nav ul li a{padding: 23px 56px;}
+  .gmap iframe{width: 333px; height: 333px;}
+}
 
-      <header>
-        <div class="wrapper">
-          <div class="logo">
-            <a class="main-logo1" href="index.html"><figure><img class="animated wow zoomIn" data-wow-duration="2000ms" src="images/main-logo.png" alt="logo"/></figure></a>
-						<a class="main-logo2" href="index.html"><figure><img src="images/main-logo1.png" alt="logo"/></figure></a>
-          </div>
-          <div class="header_info">
-            <h3>Contact <span>number</span></h3>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-      </header>
+@media only screen and (max-width:1200px){
+/* Navigation */
+nav ul li a{padding: 9px 43px;line-height: 35px;}
 
-			<div id="nav_area">
-	      <!-- <php wp_nav_menu( array( 'container_class' => 'nav-menu', 'theme_location' => 'primary', 'after' => '<span></span>') ); ?> -->
-	      <small class="nav_toggle">
-	        <i class="wpburger"><small></small></i>
-	      </small>
+/* Banner */
+.bnr_info{left: 565px;}
 
-				<div class="toggle_right_nav">
-		      <nav>
-						<div class="menu_slide_right">
-                <a href="index.html" class="logo_slide_right"><img src="images/main-logo1.png" alt="logo"/></a>
-                <small>X</small>
-            </div>
+/* Middle */
+.middle_boxes{margin-top: 60px;}
+.middle2_con{gap: 50px 15px;}
+.middle2_con section{width: 30%;}
+#middle::after {height: 1180px;}
 
-		        <div class="wrapper">
-		          <ul>
-		            <li><a class="active" href="javascript:;">Home</a></li>
-		            <li><a href="about.html">About Us</a></li>
-		            <li><a href="service.html">Services</a></li>
-								<li><a href="career.html">Careers</a></li>
-								<li><a href="resources.html">Resources</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-		          </ul>
-		        </div>
-		      </nav>
-					<div class="toggle_nav_close"></div>
-				</div>
-			</div>
+/* Main Area */
+#main_area{padding: 70px 20px 0;min-height: 405px;}
+.sidebar figure::before {display: none;}
+.sidebar img {   max-width: 100%;   width: 400px; }
 
-      <div id="banner">
-        <div class="wrapper">
-          <div class="slider">
-            <!-- <div class="box_skitter box_skitter_large">
+/* Bottom */
+#bottom1{min-height: 0;}
+.btm1_con{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.btm1_con figure::before{display: none;}
+.btm1_con figure {   width: 31%;   bottom: 0;   position: relative;   float: left;   left: 0; }
+.btm1_con img{max-width: 100%; width: 400px; bottom: 0; position: absolute;left: 0;margin: -65px 51px 0 auto;}
+.btm1_con section{margin-right: 20px;width: 59%;margin-bottom: 60px;}
+.btm1_con p{margin: 35px auto 57px;}
 
-            </div> -->
-            <ul class="rslides">
-              <li><img src="images/slider/1.jpg" alt=""/></li>
-              <li><img src="images/slider/2.jpg" alt=""/></li>
-              <li><img src="images/slider/3.jpg" alt=""/></li>
-            </ul>
+/* Footer */
+.footer_nav ul li a{padding: 23px 46px;}
+}
 
-						<div class="box_skitter box_skitter_large">
-							<ul>
-								<li><img src="images/slider/1.jpg" alt=""/></li>
-								<li><img src="images/slider/2.jpg" alt=""/></li>
-								<li><img src="images/slider/3.jpg" alt=""/></li>
-							</ul>
-						</div>
-          </div>
+@media only screen
+and (max-width : 1090px) {
+  html, body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10  */
+  }
+/* Navigation */
+nav ul li a{padding: 9px 36px;}
 
-					<!-- <img src="images/slider/1.jpg" alt="" class="mobi_ban"> -->
+/* Banner */
+.bnr_info{bottom: 2px;left: 505px;}
 
-          <div class="bnr_info">
-						<h2>Caring for You, <span>Where You Call Home</span></h2>
-						<section><p>Our dedicated team of healthcare professionals is here to bring exceptional care to your doorstep and ensure that you receive the personalized attention and support you deserve. </p> <a class="animated wow fadeInRight" href="about.html">Find Out More</a></section>
-          </div>
+/* Bottom */
+#bottom3{padding: 150px 20px;}
+.btm3_con p{width: 100%;}
 
-        </div>
-      </div>
+/* Footer */
+.footer_nav ul li a{padding: 23px 39px;}
+.footer_logo img{max-width: 100%; width: 200px;}
+.gmap iframe{width: 300px; height: 300px;}
+}
 
-			<div id="middle">
-				<div class="wrapper">
-					<div class="middle_con">
-							<h2>What We Do <span>Services We Offer</span></h2>
-							<p>Our team of dedicated healthcare professionals is committed to delivering comprehensive, personalized, and compassionate care that promotes your well-being and supports your independence.</p>
-					</div>
-					<div class="middle_boxes">
-		          <div class="middle2_con">
-		            <section class="mid_box1">
-									<figure class="animated wow bounceIn" data-wow-duration="2000ms"><img src="images/middle_img1.png" alt=""></figure>
-									<div class="animated wow fadeInLeft" data-wow-duration="2000ms" style="animation-delay: 0.5s;">
-										<h2>Skilled Nursing Care</h2>
-										<p>Provide skilled nursing services, including wound care, medication management and many more.</p>
-										<a href="service.html#skilled-nursing">Click Here </a>
-									</div>
-		            </section>
-		            <section class="mid_box2">
-									<figure class="animated wow bounceIn" data-wow-duration="2000ms" style="animation-delay: 0.6s;"><img src="images/middle_img2.png" alt=""></figure>
-									<div class="animated wow fadeInLeft" data-wow-duration="2000ms" style="animation-delay: 0.2s;">
-										<h2>Personalized Care</h2>
-										<p>Provide compassionate support, ensuring your comfort and safety while promoting your independence.</p>
-										<a href="service.html#personalized-care">Click Here </a>
-									</div>
-		            </section>
-		            <section class="mid_box3">
-									<figure class="animated wow bounceIn" data-wow-duration="2000ms" style="animation-delay: 0.6s;"><img src="images/middle_img3.png" alt=""></figure>
-									<div class="animated wow fadeInRight" data-wow-duration="2000ms" style="animation-delay: 0.2s;">
-										<h2>Rehabilitation Services</h2>
-										<p>Provide physical therapy, occupational therapy, and speech therapy </p>
-										<a href="service.html#rehabilitation-services">Click Here </a>
-									</div>
-		            </section>
-								<section class="mid_box4">
-									<figure class="animated wow bounceIn" data-wow-duration="2000ms"><img src="images/middle_img4.png" alt=""></figure>
-									<div class="animated wow fadeInRight" data-wow-duration="2000ms" style="animation-delay: 0.5s;">
-										<h2>View More Services</h2>
-										<p>Ensure that your medical needs are effectively addressed and managed at home.</p>
-										<a href="service.html">Click Here </a>
-									</div>
-								</section>
-		          </div>
-		      </div>
-				</div>
-			</div>
+@media only screen
+and (max-width : 1024px) {
+   /* Nav Area Sub-Menu Style */
 
-			<div id="main_area">
-      	<div class="wrapper">
+   nav li.menu-item-has-children > span{display:block;}
+   nav li > span{display:block;}
+   nav ul ul, nav ul ul li, nav ul ul li a {width:100%;}
+   nav ul ul li a {line-height: 50px;}
+   nav ul li:hover > ul{display: none;}
+}
 
-      		<main class="animated wow slideInLeft" data-wow-duration="2000ms">
-      			<h1><span>Welcome to </span>EverHealth Home Care Solutions</h1>
-      			<p>At <span class="comp">EverHealth Homecare Solutions</span>, we are passionate of what we do. We strive to provide home care services that cater to the unique needs of our valued customers. </p>
-      			<p>With years of experience in the industry, we have built a strong reputation for delivering quality, innovation and many more.</p>
-      		</main>
+@media only screen
+and (max-width : 1000px) {
+  .animated{animation: none!important;}
+  /*Header Area*/
+  header {padding: 15px 15px; position: relative;}
+  .logo{position: static;margin-bottom: 15px;}
+.logo::after {display: none;}
+.main-logo1{display: none;}
+.main-logo2 {display: block;}
+  /*Nav Area*/
+  nav{clear: both; height:auto;margin:auto; padding:10px 10px 4px; transition:none; position:relative; width:100%; right:0; top:0; font-size: 0;max-width: 100%;}
+  nav ul{ margin:0; text-align:center;padding: 20px 0 0;border-top: 1px solid green;}
+  nav ul li{width: 32%; text-align: center; border:1px solid #fff; margin:0px 2px 6px !important;}
+  nav ul li:after{content: "";}
+  nav ul li a{line-height: 50px;border-radius: unset;color:#fff;background: #006836;}
+  nav ul li a:hover{background: #8bc349;}
+nav ul li a.active{background: #8bc349;}
+  /*Banner Area*/
+  #banner{text-align: center; height: auto; margin: 0; padding: 10px 20px;}
+  .slider {   position: relative;   left: 50%;   transform: translateX(-50%);   width: 100vw; }
+    .box_skitter{display:none;}
+    .rslides{display:block;}
+  .bnr_info{position: static;text-align: center;float: unset;width: 100%;padding: 46px 20px;margin-left: 50%; transform: translateX(-50%);background: #006836;}
+  #banner::after {display: none;}
+  .bnr_info h2{color: #fff;}
+  .bnr_info p{color: #fff;width: 100%;}
+  .bnr_info a{margin: 40px auto 0;background: #fff; color: #000;}
+  .bnr_info a:hover{background: #8bc349;}
+  /*Middle Area*/
+  #middle {text-align:center; margin:0; padding:8px 20px 0;}
+    .middle_con section{width:32%; margin:0 3px 8px!important;}
+#middle::after {display: none;}
+.middle2_con{gap:15px;}
+.middle2_con section{width: 36%; background: #006836; padding: 20px 20px 30px;}
+.middle2_con section figure {   background: unset;   border-radius: unset;   padding: unset; }
+.middle2_con section div p{margin: 30px auto; min-height: 0;}
+.middle2_con section div a:hover{background: #8bc349;}
+  /*Main Area*/
+  #main_area{padding: 40px 20px; margin:0;min-height: 0;}
+  main{width: 100%;}
+  .sidebar img{display: none;}
+  /*Bottom Area*/
+  #bottom1{padding: 30px 20px 55px;background: #006836;}
+  .btm1_con h2{color: #fff;}
+  .btm1_con h2 span{background: #fff;}
+  .btm1_con p{color: #fff;}
+  .btm1_con a{background: #fff;color:#000;}
+.btm1_con a:hover{background:   #8bc349}
+    .btm1_con section{width:100%; margin:0 3px 8px!important;}
+.btm1_con figure{display: none;}
 
-          <aside class="sidebar">
-						<figure><img src="images/main-img1.png" alt=""></figure>
-          </aside>
+#bottom2{padding: 68px 20px;}
+.btm2_con section{width: 46%;}
+.btm2_con{gap: 70px 15px;}
+.btm2_con section h2::before {position: static;transform: unset;display: block; margin: 0 auto;}
 
-					<div class="clearfix"></div>
-      	</div>
-      </div>
+#bottom3{padding: 68px 20px;}
+  /*Footer Area*/
+  footer{padding: 68px 20px;}
+  .footer_nav ul{border-radius: 0;}
+  .footer_nav ul li a{padding: 23px 22px;border-radius: 0;}
+  .contact_con{display: block;}
+  .contact_info{width: 100%;text-align: center;}
+  .contact_info ul li{left: 0}
+  .gmap{margin-top: 50px;}
+  .gmap::before {display: none;}
+  .gmap iframe{width: 100%;border-radius: 0;}
+  .foot_logo{position: static;transform: unset;}
+  .footer_logo{left: 0;}
+  .foot_logo{margin: 60px auto 0;}
+.copyright{margin-top: 30px;}
+.contact_info ul li::before {position: static; margin: 0 auto; display: block;}
 
-      <div id="bottom1">
-        <div class="wrapper">
-          <div class="btm1_con">
-							<figure><img src="images/bottom1-img1.png" alt=""></figure>
-							<section class="animated wow slideInRight" data-wow-duration="2000ms">
-									<h2>Our Commitment <span>Mission Statement</span></h2>
-									<p>At <span class="comp">EverHealth Homecare Solutions</span>, our mission is to deliver exceptional home healthcare services with integrity, empathy, and expertise. We are committed to providing personalized care that promotes independence, fosters dignity, and supports the overall well-being of our clients. With our holistic approach to care, we aim to empower individuals to live life to the fullest within the familiar and nurturing environment of their own homes.</p>
-									<a href="about.html#mission">About Us</a>
-							</section>
-          </div>
-        </div>
-      </div>
+/* Nonhome */
+.nonhome-nav{background: #fff;}
+.nonhome-nav ul{padding: 20px 0;}
+.nonhome-header{padding: 14px 15px;}
+.nh-logo{width: 324px;}
+.service-con section{width: 38%;}
+.mission_vision section{width: 38%;}
+}
 
-			<div id="bottom2">
-				<div class="wrapper">
-					<div class="btm2_con">
-							<section class="animated wow fadeIn" data-wow-duration="2000ms">
-								<h2>Set an Appointment</h2>
-								<p>We make it easy for you to schedule an appointment and begin receiving the exceptional home healthcare services you deserve</p>
-								<a href="contact.html">Click Here </a>
-							</section>
-							<section class="animated wow fadeIn" data-wow-duration="2000ms" style="animation-delay: 0.6s;">
-								<h2>We Accept Referrals</h2>
-								<p>We greatly appreciate referrals from our satisfied clients, their families, and healthcare professionals</p>
-								<a href="contact.html">Click Here </a>
-							</section>
-							<section class="animated wow fadeIn" data-wow-duration="2000ms" style="animation-delay: 0.9s;">
-								<h2>Insurance Accepted</h2>
-								<p>We accept a wide range of insurance plans to help you receive the care you need</p>
-								<a href="insurance.html">Click Here </a>
-							</section>
-					</div>
-				</div>
-			</div>
+@media only screen
+and (max-width : 800px) {
+  /* Header Area */
+  .logo{float: none; margin: 0;width: 215px;}
+  header{padding: 0;}
+  .header_info{text-align: center; padding: 10px; float: none;}
+.nonhome-header{padding: 0;}
+  /* Nav Area */
+  .nav_toggle{display:block;padding: 20px 15px;}
+  nav {width: 280px;position: fixed;top: 0;right: -280px;height: 100%;background: #999999;transition: all 0.7s ease;overflow-y: scroll;padding: 0 0 30px;opacity: 0;border-radius: unset;left: unset; transform: unset;}
+	nav ul{margin: 0; padding: 0;}
+	nav ul li{width: 100%; display: block; margin: 0 auto !important;border: none;border-bottom: 1px solid #f8f8f8;text-align: left;border-radius: unset;}
+	nav ul li:last-child{border-bottom: none;}
+nav ul li a{text-align: center;}
+	nav ul ul{width:100%; position:relative;  transition:none;}
+	nav ul ul li {border:none; width:100%;}
 
-			<div id="bottom3">
-				<div class="wrapper">
-					<div class="btm3_con">
-							<h2>Find the Care You Deserve <span>Send Us a Message</span></h2>
-							<p>Have a question, comment, or inquiry? We would love to hear from you. Please feel free to send us email, and one of our dedicated team members will get back to you as soon as possible. We are here to listen, support you, and provide you with the information you need.</p>
-							<a href="javascript:;">sample_email@email.com</a>
-					</div>
-				</div>
-			</div>
+  /* Toggle Style */
+  .toggle_right_nav {position: fixed;top: 0;left: 0;right: 0;width:100%;height: 100%;z-index: 1000;visibility: hidden; transition: all 0.7s ease;}
+  .toggle_nav_close {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;}
+  .toggle_right_cont {visibility: visible;background: rgba(0,0,0,0.9);}
+  .toggle_right_style {right: 0;opacity: 1;z-index: 45;}
+  .logo_slide_right {display: inline-block;vertical-align: middle;width: calc(100% - 90px);}
 
-      <footer>
-        <div class="footer_top">
-          <div class="wrapper">
-            <div class="contact_con">
-							<div class="contact_info">
-								<h2>Get in Touch <span>Contact Information</span></h2>
-								<p>Need Assistance? Call Us Today! </p>
-								<ul>
-									<li>Address: 1234 Street Name, Suite 123 <span>City Name, New York 12345</span></li>
-									<li>Phone: 123-456-7890 <span>Email: <a href="javascript:;">sample_email@email.com</a></span></li>
-								</ul>
-							</div>
-							<div class="gmap">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26556786.070929587!2d-116.97570703047096!3d35.65741775774774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sph!4v1686281884656!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-							</div>
-            </div>
-          </div>
-        </div>
+  .menu_slide_right {display: block;text-align: left;padding: 20px 10px;background: #fff;position: relative;}
+  .menu_slide_right small {display: inline-block;vertical-align: middle;font-size: 40px;font-weight: bold;color: #000;line-height: 100%;text-align: right;width: 90px;cursor: pointer;position: absolute;top: 50%;right: 10px;transform: translate(0,-50%);}
 
-        <div class="footer_btm">
-          <div class="wrapper">
+  /* Banner */
+  #banner{padding: 0 20px;}
 
-            <div class="footer_nav">
-              <ul>
-                <li><a class="active" href="">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="service.html">Services</a></li>
-								<li><a href="career.html">Careers</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-              </ul>
-            </div>
 
-            <div class="foot_logo">
-							<div class="footer_logo">
-									<a href="index.html"><figure><img src="images/footer-logo.png" alt="logo"></figure></a>
-							</div>
-							<div class="copyright">
-	              &copy; Copyright
-	      				<script>document.write(new Date().getFullYear())</script></p>
-	              <span class="footer_comp">Designed by:</span>
-	              <a href="javascript:;">SMMastermind</a>
-	            </div>
-							<div class="soc_media">
-								<ul>
-									<li><a href="https://www.facebook.com/" target="_blank"><figure><img src="images/fb-icon.png" alt=""></figure></a></li>
-									<li><a href="https://twitter.com/" target="_blank"><figure><img src="images/twitter-icon.png" alt=""></figure></a></li>
-								</ul>
-							</div>
-            </div>
-          </div>
+  /* Middle */
+  .middle2_con section{width: 60%;}
 
-          </div>
-      </footer>
+  /* Bottom */
+  .btm2_con section{width: 55%;}
 
-<span class="back_top"></span>
+  /*Footer Area*/
+  .footer_btm{padding: 24px 0;}
+    .footer_nav ul{ margin:0; text-align:center; font-size: 0;border-radius: 0;background: 0 0}
+    .footer_nav ul li{width: 32%; text-align: center; border:1px solid #fff; margin:0px 2px 6px !important;background: #006836;}
+    .footer_nav ul li a:hover, .footer_nav ul li a:active, .footer_nav ul li.current_page_item a{background: #8bc349;}
+    .footer_nav ul li a.active{background: #8bc349;}
+    .footer_nav ul li:after{background: none;}
+    .footer_nav ul li a{line-height: 50px;border-radius: 0;padding: 9px 22px;color: #fff;}
 
-    </div> <!-- End Clearfix -->
-    </div> <!-- End Protect Me -->
+    .copyright{margin-top: 24px;}
 
-    <!--?php get_includes('ie');?-->
+    /* Nonhome */
+    .nonhome-nav{width: 280px; right: 0; position: absolute;}
+.nonhome-nav ul{padding: 0}
+.nh-logo{width: 215px;}
+.service-con section{width: 53%;}
+.mission_vision section{width: 54%;}
+}
 
-    <!--
-    Solved HTML5 & CSS IE Issues
-    -->
-    <script src="js/modernizr-custom-v2.7.1.min.js"></script>
-    <script src="js/jquery-2.1.1.min.js"></script>
+/* Smartphones */
+@media only screen
+and (max-width : 600px) {
 
-    <!--
-    Solved Psuedo Elements IE Issues
-    -->
-    <script src="js/calcheight.js"></script>
-		<script src="js/wow.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.skitter.min.js"></script>
-    <script src="js/responsiveslides.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <!--?php wp_footer(); ?-->
-</body>
-</html>
+  /*Banner Area*/
+  .mobi_ban{display: block;}
+
+  /*Middle Area*/
+  .middle_con section{margin:0 auto 8px!important;}
+.middle2_con section{width: 100%;}
+  /*Main Area*/
+
+
+  /*Bottom Area*/
+  .btm1_con section{margin:0 auto 8px!important; width: 100%}
+
+  .btm2_con section {width: 100%;}
+
+  /*Footer Area*/
+  .footer_comp{display:block; line-height: 28px;}
+  .footer_comp:before, .footer_comp:after{display: none;}
+  .footer_nav ul li{width:100%; margin: 0 auto 6px!important;}
+
+  /*Others*/
+  .col2, .col3{-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; -webkit-column-gap: 0; -moz-column-gap: 0;  column-gap: 0;}
+  main .bullet{padding-left:10px;}
+  .back_top{background: url(../images/back_top.png) no-repeat center #000; position: fixed; bottom: 10px; right: 10px; width: 43px; height: 43px; cursor: pointer; border-radius: 50%; z-index: 999;}
+  .back_top:hover{opacity: .6;}
+
+  /*For (AddThis) Plugins*/
+  .withAddThis_plugins {bottom: 48px;}
+  .withAddThis_ftr_btm {padding: 0 10px 88px;}
+  /*End (AddThis) Plugins*/
+
+  /* Nonhome */
+  .service-con section{width: 100%;}
+  .bullet{column-count: 1!important;}
+  .mission_vision section{width: 100%;}
+
+}
+
+@media only screen
+and (max-width : 500px) {
+/* Bottom */
+.btm3_con a{padding: 20px 25px;}
+}
